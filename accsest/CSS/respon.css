@@ -30,6 +30,7 @@
 /*  */
 @media (min-width: 280px) and (max-width: 385.9px) {
     .text--animate {
+        /* max-width: 80%; */
         --line-h: 30px;
         font-size: 12px;
     }
@@ -37,7 +38,7 @@
     .container .box span{
         position: absolute;
         color: rgb(255, 255, 255);
-        font-size: 44px;
+        font-size: 30px;
         white-space: nowrap;
         text-transform: uppercase;
         padding: 0 10px;
@@ -59,7 +60,7 @@
     .container .box span{
         position: absolute;
         color: rgb(255, 255, 255);
-        font-size: 22px;
+        font-size: 24px;
         white-space: nowrap;
         text-transform: uppercase;
         padding: 0 10px;
