@@ -24,7 +24,7 @@
 @media (min-width: 386px) and (max-width: 479.9px) {
     .text--animate {
         --line-h: 45px;
-        font-size: 1.1em;
+        font-size: 1em;
     }
 }
 /*  */
