@@ -23,16 +23,15 @@
 
 @media (min-width: 386px) and (max-width: 479.9px) {
     .text--animate {
-        --line-h: 43px;
+        --line-h: 45px;
         font-size: 1.1em;
     }
 }
 /*  */
 @media (min-width: 280px) and (max-width: 385.9px) {
     .text--animate {
-        /* max-width: 80%; */
-        --line-h: 30px;
-        font-size: 12px;
+        --line-h: 45px;
+        font-size: 15px;
     }
     
     .container .box span{
