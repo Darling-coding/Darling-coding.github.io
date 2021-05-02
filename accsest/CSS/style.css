@@ -42,10 +42,12 @@ body {
 }
 
 .text--animate {
+    --line-h: 70px;
     position: absolute;
     top: 70px;
-    height: 70px;
+    height: var(--line-h);
     width: 700px;
+    max-width: 90%;
     color: white;
     font-size: 2em;
     z-index: 0;
@@ -58,9 +60,9 @@ body {
 .text--sub {
     z-index: 10;
     color: rgb(255, 255, 255);
-    line-height: 70px;
+    line-height: var(--line-h);
 }
-.text--sub::after {
+.text--animate::after {
     content: "";
     position: absolute;
     top: 0;
@@ -118,7 +120,7 @@ body {
 
 .container .box span{
     position: absolute;
-    height: 150px;
+    /* height: 150px; */
     margin-top: 10px;
     color: rgb(255, 255, 255);
     font-size: 3em;
@@ -132,7 +134,7 @@ body {
 }
 
 
-.container .box span i {
+.box__icon {
     font-style: initial;
     color: rgb(209, 0, 0);
 }
