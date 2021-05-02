@@ -11,7 +11,7 @@ html {
  
 body {
     height: 100vh;
-    min-height: 800px;
+    min-height: 1000px !important;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -32,6 +32,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
+    z-index: 30;
 }
 
 .heart__icon--h {
