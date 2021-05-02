@@ -17,7 +17,31 @@ body {
     align-items: center;
 } 
 
+#heart {
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, white, pink);
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
 
+.heart__icon--h {
+    font-size: 30px;
+    color: rgb(255, 112, 112);
+    cursor: pointer;
+}
+
+#heart:active .heart__icon--h {
+    transform: scale(1.8);
+}
 
 .container {
     width: 100%;
@@ -28,6 +52,7 @@ body {
     align-items: center;
     position: relative;
 }
+
 
 .container .bg {
     position: absolute;
@@ -138,3 +163,4 @@ body {
     font-style: initial;
     color: rgb(209, 0, 0);
 }
+
