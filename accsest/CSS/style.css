@@ -21,27 +21,21 @@ body {
     position: fixed;
     left: 10px;
     top: 50%;
-    transform: translateY(-50%);
-    width: 80px;
-    height: 80px;
+    transform: translateY(-100%);
+    width: 70px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to top, white, pink);
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
     z-index: 30;
-}
-
-.heart__icon--h {
-    font-size: 30px;
-    color: rgb(255, 112, 112);
-    cursor: pointer;
+    box-shadow: 0 0 30px 4px #ffb8b8;
 }
 
 #heart:active .heart__icon--h {
-    transform: scale(1.8);
+    transform: scale(1.3);
 }
 
 .container {
