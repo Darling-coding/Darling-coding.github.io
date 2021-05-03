@@ -17,7 +17,6 @@ body {
     align-items: center;
 } 
 
-
 #heart {
     position: fixed;
     left: 10px;
@@ -67,7 +66,7 @@ body {
     top: 70px;
     height: var(--line-h);
     width: 700px;
-    max-width: 90%;
+    max-width: 96%;
     color: white;
     font-size: 2em;
     z-index: 0;
@@ -140,6 +139,7 @@ body {
 
 .container .box span{
     position: absolute;
+    /* height: 150px; */
     margin-top: 10px;
     color: rgb(255, 255, 255);
     font-size: 3em;
@@ -151,7 +151,10 @@ body {
     transform: translate(-50%, -50%) rotateX( calc(var(--i) * 22.5deg)) translateZ(100px);
 
 }
+
+
 .box__icon {
     font-style: initial;
     color: rgb(209, 0, 0);
 }
+
