@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -72,6 +74,7 @@ body {
 }
 
 .text--sub {
+    font-family: 'Satisfy', cursive;
     word-wrap: break-word;
     z-index: 10;
     font-size: 22px;
