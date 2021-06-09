@@ -144,7 +144,7 @@ body {
     text-transform: uppercase;
     padding: 0 10px;
     transform-style: preserve-3d;    
-    text-shadow: 0 5px 15px rgba(151, 151, 151, 0.849);
+    text-shadow: 0 5px 10px rgb(151 151 151 / 45%);
     transform: translate(-50%, -50%) rotateX( calc(var(--i) * 22.5deg)) translateZ(100px);
 
 }
