@@ -7,7 +7,7 @@
 }
 
 html {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Arial', sans-serif;
     font-size: 16px;
 }
  
@@ -74,6 +74,7 @@ body {
 }
 
 .text--sub {
+    font-family: 'Sacramento', cursive;
     word-wrap: break-word;
     z-index: 10;
     font-size: 22px;
