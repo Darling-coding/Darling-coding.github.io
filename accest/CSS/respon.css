@@ -1,0 +1,55 @@
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 725px) and (max-width: 1119px) {
+    
+}
+
+@media (min-width: 600px) and (max-width: 724.9px) {
+
+}
+
+@media (min-width: 480px) and (max-width: 599.9px) {
+
+}
+
+@media (min-width: 386px) and (max-width: 479.9px) {
+
+}
+@media (min-width: 315px) and (max-width: 385.9px) {
+    
+    
+    .container .box span{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        white-space: nowrap;
+        text-transform: uppercase;
+        padding: 0 10px;
+        transform-style: preserve-3d;    
+        text-shadow: 0 5px 15px rgba(151, 151, 151, 0.849);
+        transform: translate(-50%, -50%)
+            rotateX( calc(var(--i) * 22.5deg)) 
+            translateZ(70px);
+
+    }
+}
+
+@media (max-width: 314.9px) {
+ 
+    .container .box span{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        white-space: nowrap;
+        text-transform: uppercase;
+        padding: 0 10px;
+        transform-style: preserve-3d;    
+        text-shadow: 0 5px 15px rgba(151, 151, 151, 0.849);
+        transform: translate(-50%, -50%)
+            rotateX( calc(var(--i) * 22.5deg)) 
+            translateZ(50px);
+
+    }
+}
