@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -162,7 +163,11 @@ body {
 
 .container .box span{
     position: absolute;
+<<<<<<< HEAD
     height: 150px;
+=======
+    height: 130px;
+>>>>>>> d7e8137f9fa41988fc45791656a53b7239018200
     margin-top: 10px;
     color: rgb(162, 229, 255);
     font-size: 3em;
@@ -171,8 +176,13 @@ body {
     text-transform: uppercase;
     padding: 0 10px;
     transform-style: preserve-3d;    
+<<<<<<< HEAD
     text-shadow: 0 10px 10px rgba(151, 151, 151, 0.4);
     transform: translate(-50%, -50%) rotateX( calc(var(--i) * 36deg)) translateZ(100px);
+=======
+    text-shadow: 0 5px 10px rgb(151 151 151 / 45%);
+    transform: translate(-50%, -50%) rotateX( calc(var(--i) * 22.5deg)) translateZ(100px);
+>>>>>>> d7e8137f9fa41988fc45791656a53b7239018200
 
 }
 
