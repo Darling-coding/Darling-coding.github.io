@@ -11,17 +11,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./accest/CSS/style.css">
     <link rel="stylesheet" href="./accest/CSS/respon.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
 </head>
 
 <body>
+    <canvas class="background"></canvas>
+    <style>
+        .background {
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.2;
+            z-index: auto;
+        }
+    </style>
+    <script>
+    window.onload = function () {
+        Particles.init({
+          selector: ".background"
+        });
+    };
+    var particles = Particles.init({
+        selector: ".background",
+        color: ["#f9d2ff", "#a5e1ff"],
+        maxParticles: 22,
+        connectParticles: true,
+        responsive: [
+          {
+            breakpoint: 320,
+            options: {
+              color: ["#f9d2ff", "#a5e1ff"],
+              maxParticles: 20,
+              connectParticles: false
+            }
+          }
+        ]
+    });
+    </script>
+    
     <div class="container">
+        
         <audio id="adi" src="./accest/audio/myAudio1.mp3" loop="true"></audio>
         <label for="adi" class="audioLabel">
             <div id="heart">
                 <i class="heart__icon--h fas fa-heartbeat"></i>
-                <!-- <img class="heart__icon--h" src="./accest/img/afd.gif" width="100%" height="100%" alt=""> -->
             </div>
-
         </label>
 
         <script>
@@ -39,30 +76,9 @@
 
         <div class="bg"></div>
         <div class="text--animate">
-            <span class="text--sub">Darling? <i class="box__icon fas fa-heartbeat"></i></span>
+            <span class="text--sub">Darling <i class="box__icon fas fa-heartbeat"></i></span>
         </div>   
-        <div class="box">
-            <span style="--i:1">M e y</span>
-            <!-- <i class="box__icon fas fa-heartbeat"></i> -->
-            <span style="--i:2">M e y</span>
-            <!-- <i class="box__icon fas fa-heartbeat"></i> -->
-            <span style="--i:3">M e y</span>
-            <!-- <i class="box__icon fas fa-heartbeat"></i> -->
-            <span style="--i:4">M e y</span>
-            <!-- <i class="box__icon fas fa-heartbeat"></i> -->
-            <span style="--i:5">M e y</span>
-            <!-- <i class="box__icon fas fa-heartbeat"></i> -->
-            <span style="--i:6">M e y</span>
-            <!-- <i class="box__icon fas fa-heartbeat"></i> -->
-            <span style="--i:7">M e y</span>
-            <!-- <i class="box__icon fas fa-heartbeat"></i> -->
-            <span style="--i:8">M e y</span>
-            <!-- <i class="box__icon fas fa-heartbeat"></i> -->
-            <span style="--i:9">M e y</span>
-            <!-- <i class="box__icon fas fa-heartbeat"></i> -->
-            <span style="--i:10">M e y</span>
-            <!-- <i class="box__icon fas fa-heartbeat"></i> -->
-        </div>
+
     </div>
 
 </body>
